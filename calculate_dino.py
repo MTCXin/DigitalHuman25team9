@@ -28,7 +28,7 @@ def get_image_embeddings(image_folder):
     return torch.cat(embeddings, dim=0)
 
 # Paths to your folders
-method = "less_camera_distribute_ppl"
+method = "less_camera_distribute"
 gen_folder = "sks_cat/" + method
 real_folder = "my_cat/" + method
 
